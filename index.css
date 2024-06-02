@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+
+.grid-item {
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.grid-item:hover {
+  background-color: rgb(78, 173, 141);
+  cursor: pointer;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 320px;
+  grid-template-rows: 100px 100px 320px 60px 100px;
+  gap: 10px;
+  margin: auto;
+}
+
+.button{
+  width: auto;
+  font-weight: bold;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-size: large;
+}
+
+.won {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  color: red;
+}
+
+.body{
+  display: flex;
+}
+.title{
+  justify-self: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
